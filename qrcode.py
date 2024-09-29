@@ -1,6 +1,6 @@
 import pyqrcode
 
-url = input("QR kod yapmak için url verin : ")
+url = input("Give the URL for make a QR : ")
 
 qr_code = pyqrcode.create(url)
 
